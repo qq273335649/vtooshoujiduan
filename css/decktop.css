@@ -1,0 +1,148 @@
+
+
+	*{
+		margin:0;
+		padding:0;
+	}
+
+	body{
+		font:15px/1.3 'Open Sans', sans-serif;
+		color: #5e5b64;
+		text-align:center;
+	}
+
+	a, a:visited {
+		outline:none;
+		color:#389dc1;
+	}
+
+	a:hover{
+		text-decoration:none;
+	}
+
+	section, footer, header, aside, nav{
+		display: block;
+	}
+
+	/*-------------------------
+		菜鸟
+	--------------------------*/
+
+	nav{
+		display:inline-block;
+		margin:60px auto 45px;
+		background-color:#5597b4;
+		box-shadow:0 1px 1px #ccc;
+		border-radius:2px;
+	}
+
+	nav a{
+		display:inline-block;
+		padding: 18px 30px;
+		color:#fff !important;
+		font-weight:bold;
+		font-size:16px;
+		text-decoration:none !important;
+		line-height:1;
+		text-transform: uppercase;
+		background-color:transparent;
+
+		-webkit-transition:background-color 0.25s;
+		-moz-transition:background-color 0.25s;
+		transition:background-color 0.25s;
+	}
+
+	nav a:first-child{
+		border-radius:2px 0 0 2px;
+	}
+
+	nav a:last-child{
+		border-radius:0 2px 2px 0;
+	}
+
+	nav.home .home,
+	nav.projects .projects,
+	nav.services .services,
+	nav.contact .contact{
+		background-color:#e35885;
+	}
+
+	p{
+		font-size:22px;
+		font-weight:bold;
+		color:#7d9098;
+	}
+
+	p b{
+		color:#ffffff;
+		display:inline-block;
+		padding:5px 10px;
+		background-color:#c4d7e0;
+		border-radius:2px;
+		text-transform:uppercase;
+		font-size:18px;
+	}
+	  .login_form {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .qxs-ic_user {
+    background: url("../../assets/login/ic_user.png") no-repeat;
+    background-size: 13px 15px;
+    background-position: 3%;
+  }
+  .qxs-ic_password {
+    background: url("../../assets/login/ic_password.png") no-repeat;
+    background-size: 13px 15px;
+    background-position: 3%;
+    margin-bottom: 20px;
+  }
+  .qxs-ic_vertify {
+  	background: url("img/shouji.png") no-repeat;
+    background-size: 13px 15px;
+    background-position: 3%;
+    margin-bottom: 20px;
+  }
+  .login_logo {
+    height: 100%;
+  }
+  .login_btn {
+    width: 100%;
+    font-size: 16px;
+    background: -webkit-linear-gradient(left, #000099, #2154FA); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #000099, #2154FA); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #000099, #2154FA); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #000099 , #2154FA); /* 标准的语法 */
+    filter: brightness(1.4);
+  }
+  .text-size12px{
+  font-size: 12px;
+}
+.text-size14px{
+  font-size: 14px;
+}
+.text-size16px{
+  font-size: 16px;
+}
+.float-right {
+  float: right;
+}
+.item-color {
+  color: #848487;
+}
+
+
+
+.btn01{display:inline-block;padding:20px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:30px;}
+.shuru{display:inline-block;padding:6px 12px;margin-bottom:10%;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:30px;background: #FFFFFF;}
+
+.biaoti{color: #FFFFFF;}
+
+.xiayibu{
+background: url(../img/下一步.png) no-repeat;
+float: left;
+
+}
+
+	
